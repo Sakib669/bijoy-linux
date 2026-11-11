@@ -1,0 +1,17 @@
+[package]
+name = "bijoy"
+version = "0.1.0"
+edition = "2021"
+description = "Bijoy (Unijoy) Bangla keyboard for Linux, implemented in Rust"
+license = "LGPL-2.1-or-later"
+
+[lib]
+name = "bijoy"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bijoy"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3

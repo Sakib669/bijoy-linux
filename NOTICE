@@ -1,0 +1,19 @@
+Bijoy (Unijoy) keyboard layout — licensing note
+
+The key-to-character mapping in this project is reimplemented cleanly from the
+public m17n input method definition:
+
+    bn-unijoy.mim
+    Copyright (C) 2005, 2008 National Institute of Advanced Industrial
+    Science and Technology (AIST), Registration Number H15PRO112
+    Part of the m17n-db package, licensed under the GNU Lesser General
+    Public License, version 2.1 (or, at your option, any later version).
+
+The generated mapping table (src/layout.rs) and the XKB symbols file
+(xkb/symbols/bijoy) are derivatives of that LGPL-2.1 data and are distributed
+under the same license (see LICENSE / LGPL-2.1).
+
+No proprietary Bijoy software, executable code, or fonts were copied. The
+keyboard layout itself (which physical key types which character) is a
+functional layout, reproduced here as data, exactly as it already appears in
+the free XKB and m17n databases.

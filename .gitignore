@@ -1,0 +1,7 @@
+# Rust build output
+/target
+
+# Editor and OS files
+*.swp
+*~
+.DS_Store
